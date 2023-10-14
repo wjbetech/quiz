@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OSRS Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- heading -->
+  <header>
+    <h1 class="title">OSRS Quiz</h1>
+  </header>
+
+  <!-- conditional result output -->
+  <div class="result">
+      <p>Your score is: <span class="result-display"></span>%!</p>
+      <button class="try-again-btn">Try Again!</button>
+  </div>
+
+  <!-- main quiz body -->
+  <div class="container">
+
+    <!-- intro to the quiz -->
+    <div class="quiz-heading">
+      <h3>Welcome to the OSRS Quiz!</h3>
+      <p>Here you can test your knowledge of the game Oldschool Runescape!</p>
+    </div>
+
+
+    <!-- quiz form -->
+    <form class="quiz-form">
+
+      <!-- question 1 -->
+      <div class="question-box">
+        <h4>1. What is the name of the King of Varrock?</h4>
+        <div class="answer">
+          <input type="radio" name="q1" value="A" id="q1">
+          <label for="A">King Henry</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q1" value="B" id="q1">
+          <label for="B">King Roald</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q1" value="C" id="q1">
+          <label for="C">King Percival</label>
+        </div>
+      </div>
+
+      <!-- question 2 -->
+      <div class="question-box">
+        <h4>2. What is the best pickaxe available to F2P players?</h4>
+        <div class="answer">
+          <input type="radio" name="q2" value="A" id="q2">
+          <label for="q2">Dragon Axe</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q2" value="B" id="q2">
+          <label for="q2">3rd Age Hatchet</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q2" value="C" id="q2">
+          <label for="q2">Rune Axe</label>
+        </div>
+      </div>
+
+      <!-- question 3 -->
+      <div class="question-box">
+        <h4>3. What is the maximum combat level that can be achieved?</h4>
+        <div class="answer">
+          <input type="radio" name="q3" value="A" id="q3">
+          <label for="q3">126</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q3" value="B" id="q3">
+          <label for="q3">106</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q3" value="C" id="q3">
+          <label for="q3">124</label>
+        </div>
+      </div>
+
+      <!-- question 4 -->
+      <div class="question-box">
+        <h4>4. What monster can drop the Mossy Key?</h4>
+        <div class="answer">
+          <input type="radio" name="q4" value="A" id="q4">
+          <label for="q4">Lesser Demon</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q4" value="B" id="q4">
+          <label for="q4">Swamp Rat</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q4" value="C" id="q4">
+          <label for="q4">Moss Giant</label>
+        </div>
+      </div>
+
+      <!-- question 5 -->
+      <div class="question-box">
+        <h4>5. In what city is the air altar located?</h4>
+        <div class="answer">
+          <input type="radio" name="q5" value="A" id="q5">
+          <label for="q5">Seers Village</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q5" value="B" id="q5">
+          <label for="q5">Falador</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q5" value="C" id="q5">
+          <label for="q5">Ardougne</label>
+        </div>
+      </div>
+
+      <!-- complete form & submit -->
+
+      <div class="submit-box">
+        <h4>Did you double check all your answers?</h4>
+        <p>Great! Hit submit below to see your score!</p>
+        <button>Submit</button>
+      </div>
+
+    </form>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
